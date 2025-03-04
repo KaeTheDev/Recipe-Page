@@ -1,0 +1,31 @@
+// Young Serif - 400 only
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+// Outfit - 400, 600, 700
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+.sm-text {
+    // Text Preset 4
+    @include typography($font-family-secondary, 1rem, 300, 150%, 0);
+}
+
+.sm-text-bold{
+    // Text Preset 4 bold
+    @include typography($font-family-secondary, 1rem, 700, 150%, 0);
+}
+
+.medium-text {
+    // Text Preset 3 semi-bold
+    @include typography($font-family-secondary, 1.25rem, 600, 100%, 0);
+}
+
+.large-text {
+    // Text Preset 2
+    @include typography($font-family-primary, 1.75rem, 400, 100%, 0);
+}
+
+.xl-text {
+    // Text Preset 1
+    @include typography($font-family-primary, 2.5rem, 400, 100%, 0);
+}

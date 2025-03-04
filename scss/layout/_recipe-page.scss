@@ -1,0 +1,141 @@
+.recipe {
+    width: 375px;
+    height: 1850px;
+    background-color: $white;
+}
+
+.recipe-card__image {
+  width: 375px;
+  height: 171px;
+  display: block;
+  margin-bottom: $spacing-6;
+}
+
+.recipe-content {
+  padding: 1.5rem; 
+  box-sizing: border-box;
+}
+
+.recipe__header h1 {
+  color: $stone-900;
+  margin-bottom: $spacing-4;
+}
+
+.recipe__header p {
+  color: $stone-600;
+  margin-bottom: $spacing-5;
+}
+
+.recipe__section--bg {
+  background-color: $rose-50;
+  padding: 1.5rem;
+  margin-bottom: $spacing-5;
+  width: 250px;
+}
+
+.recipe-time__title {
+  color: $rose-800;
+  margin-bottom: $spacing-3;
+}
+
+.recipe-time__item strong {
+  font-weight: bold;
+}
+
+.divider {
+  color: $stone-150;
+  width: 311px;
+  height: 0px;
+  opacity: 0.9;
+  margin: $spacing-5 0 $spacing-5 0;
+}
+
+.recipe__section .ingredients__title {
+  color: $brown-800;
+  margin-bottom: $spacing-4;
+}
+
+.recipe__section .ingredients__list {
+  color: $stone-600;
+}
+
+.recipe__section .instructions__title {
+  color: $brown-800;
+  margin-bottom: $spacing-4;
+}
+
+.recipe__section .instructions__item strong {
+  font-weight: bold;
+}
+
+.recipe__section .nutrition__title {
+  color: $brown-800;
+  font-weight: bold;
+  margin-bottom: $spacing-4;
+}
+
+.recipe__section .nutrition {
+  padding: 1.5rem;
+  background-color: $white;
+}
+
+.recipe__section .nutrition__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recipe__section .nutrition__row {
+  border-bottom: 1px solid $stone-150; 
+}
+
+.recipe__section .nutrition__row:last-child {
+  border-bottom: none;
+}
+
+.recipe__section .nutrition__cell {
+  padding: 0.75rem 0;
+  color: $stone-900;
+  text-align: left;
+  font-weight: normal;
+}
+
+.recipe__section .nutrition__cell--value strong {
+  font-weight: bold;
+  color: $brown-800; 
+}
+
+.recipe__section td strong{
+font-weight: bold;
+color: $brown-800;
+}
+
+.recipe__section .instructions__list {
+  list-style: decimal; 
+  padding-left: 1.5rem; 
+}
+
+.recipe__section .instructions__item {
+  display: list-item; 
+}
+
+.recipe__section .instructions__item::marker {
+  color: $brown-800;
+  @include typography($font-family-secondary, 1rem, 700, 150%, 0);
+}
+
+.recipe-time__list,
+.ingredients__list {
+  list-style: disc; 
+  padding-left: 1.5rem; 
+}
+
+.recipe-time__item,
+.ingredients__item {
+  display: list-item; 
+}
+
+.recipe-time__item::marker,
+.ingredients__item::marker {
+  color: $brown-800;
+  font-weight: bold;
+}

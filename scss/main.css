@@ -246,4 +246,21 @@ body {
 .ingredients__item::marker {
   color: #854632;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .recipe {
+    width: 600px;
+    height: auto;
+  }
+  .recipe-card__image {
+    width: 600px;
+    height: 250px;
+  }
+  .recipe__section--bg {
+    width: 500px;
+  }
+  .divider {
+    width: 500px;
+  }
 }/*# sourceMappingURL=main.css.map */
